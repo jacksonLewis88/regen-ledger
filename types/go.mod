@@ -16,7 +16,7 @@ require (
 	github.com/regen-network/gocuke v1.1.0
 	github.com/regen-network/regen-ledger/api/v2 v2.4.0
 	github.com/spf13/cobra v1.8.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.11.1
 	google.golang.org/grpc v1.62.1
 	google.golang.org/protobuf v1.33.0
 	gotest.tools/v3 v3.5.1
