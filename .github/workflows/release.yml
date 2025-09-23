@@ -24,7 +24,7 @@ jobs:
     permissions:
       contents: write  # for docker/setup-buildx-action to create a GitHub release
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - uses: actions/setup-go@v5
