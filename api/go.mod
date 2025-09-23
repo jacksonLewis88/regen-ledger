@@ -1,6 +1,6 @@
 module github.com/regen-network/regen-ledger/api/v2
 
-go 1.21
+go 1.23
 
 require (
 	cosmossdk.io/api v0.3.1
@@ -9,7 +9,7 @@ require (
 	github.com/cosmos/gogoproto v1.4.10 // NOTE: v1.4.11+ is not compatible with sdk v0.47
 	google.golang.org/genproto/googleapis/api v0.0.0-20240102182953-50ed04b92917
 	google.golang.org/grpc v1.61.0
-	google.golang.org/protobuf v1.33.0
+	google.golang.org/protobuf v1.36.9
 )
 
 require (
