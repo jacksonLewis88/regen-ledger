@@ -1,6 +1,6 @@
 module github.com/regen-network/regen-ledger/x/ecocredit/v4
 
-go 1.21
+go 1.23
 
 require (
 	cosmossdk.io/api v0.3.1
@@ -15,7 +15,7 @@ require (
 	github.com/gogo/protobuf v1.3.3
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.4
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/regen-network/gocuke v1.1.0
 	github.com/regen-network/regen-ledger/api/v2 v2.4.0
@@ -25,7 +25,7 @@ require (
 	github.com/thanhpk/randstr v1.0.6
 	google.golang.org/genproto/googleapis/api v0.0.0-20240123012728-ef4313101c80
 	google.golang.org/grpc v1.62.1
-	google.golang.org/protobuf v1.33.0
+	google.golang.org/protobuf v1.36.10
 	gotest.tools/v3 v3.5.1
 	pgregory.net/rapid v1.1.0
 )
